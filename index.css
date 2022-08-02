@@ -148,6 +148,10 @@ body {
   font-weight: 500;
   display: inline-block;
 }
+.order-div a {
+  color: #000;
+  text-decoration: none;
+}
 .frame-div7,
 .frame-div8,
 .frame-div9 {
@@ -535,6 +539,13 @@ body {
 .ai-creden-data {
   position: relative;
   display: inline-block;
+  border-radius: 10px;
+  background-color: #fff;
+  border: 1px solid #1e61fa;
+  box-sizing: border-box;
+  position: relative;
+  width: 600px;
+  padding: 10px;
 }
 .frame-div70 {
   position: absolute;
@@ -692,7 +703,6 @@ body {
   font-size: 48px;
   color: #000;
 }
-.frame-div123,
 .frame-div126 {
   border-radius: 10px;
   background-color: #fff;
