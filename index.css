@@ -183,7 +183,6 @@ body {
   left: 76.04%;
 }
 .head-div {
-  position: absolute;
   top: 0;
   left: 0;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
@@ -191,6 +190,9 @@ body {
   height: 60px;
   font-size: 18px;
   font-family: Prompt;
+}
+nav {
+  position: sticky;
 }
 .data-span {
   color: #f5b908;
@@ -536,7 +538,7 @@ body {
   justify-content: center;
   gap: 20px;
 }
-.ai-creden-data {
+.ai-creden-dataf {
   position: relative;
   display: inline-block;
   border-radius: 10px;
@@ -545,7 +547,8 @@ body {
   box-sizing: border-box;
   position: relative;
   width: 600px;
-  padding: 10px;
+  padding: 20px;
+  margin-bottom: 30px;
 }
 .frame-div70 {
   position: absolute;
@@ -748,6 +751,7 @@ body {
   display: inline-block;
   width: 560px;
   flex-shrink: 0;
+  margin-bottom: 30px;
 }
 .frame-div131 {
   display: flex;
@@ -1204,4 +1208,45 @@ body {
   font-size: 28px;
   color: #000;
   font-family: Kanit;
+}
+
+::placeholder {
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+  color: #BDBDBD;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+  color: #BDBDBD;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+  color: #BDBDBD;
+}
+
+.submit-btn {
+  border: none;
+  margin: auto;
+}
+
+#frameContainer11 {
+  cursor: pointer;
+}
+
+#frameContainer11-2 {
+  cursor: pointer;
 }
